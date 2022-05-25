@@ -1,0 +1,17 @@
+.myDiv {
+    display:flex;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
+    /* height: 100%; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.myDiv {
+    display:flex;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
+    /* height: 100%; */
+    margin: 0px;
+    padding: 0px;
+}

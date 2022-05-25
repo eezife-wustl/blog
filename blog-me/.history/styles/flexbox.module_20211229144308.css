@@ -1,0 +1,19 @@
+.myDiv {
+    /* justify-content: center; */
+    /* height: 100%; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.mySidebar {
+    /* align-self: flex-end; */
+}
+
+.myContent {
+    /* justify-content: flex-start; */
+    /*
+     */
+    /* background-color: brown; */
+    align-self:flex-end;
+    /* width: 100%; */
+}

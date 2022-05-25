@@ -1,0 +1,36 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: linear-gradient(to, #ffffff 0%, #f1efff 74%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@font-face {
+  font-family: 'Jost-500-Medium';
+  src: url('../public/Jost/TrueType/Jost-500-Medium.ttf') format('truetype');      
+
+  /* font-family: 'Jost-700-Bold';
+  src: url('../public/Jost/TrueType/Jost-700-Bold.ttf') format('truetype');    */
+}
+
+@font-face {
+  font-family: 'Jost-700-Bold';
+  src: url('../public/Jost/TrueType/Jost-700-Bold.ttf') format('truetype');   
+}

@@ -3,6 +3,8 @@ blog-strapi2
 .next
 # dependencies
 /node_modules
+blog-strapi
+blog-strapi2
 
 # testing
 /coverage

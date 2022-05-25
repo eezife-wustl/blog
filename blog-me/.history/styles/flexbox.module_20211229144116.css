@@ -1,0 +1,17 @@
+.myDiv {
+    /* justify-content: center; */
+    /* height: 100%; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.mySidebar {
+    /* align-self: flex-end; */
+}
+
+.myContent {
+    /* justify-content: flex-start; */
+    /* align-self:flex-start;
+    width: 100%; */
+    /* background-color: brown; */
+}

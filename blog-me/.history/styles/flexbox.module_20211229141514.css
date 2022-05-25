@@ -1,0 +1,17 @@
+.myDiv {
+    display:flex;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
+    /* height: 100%; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.mySidebar {
+
+}
+
+.myContent {
+    align-self: flex-end;
+    background-color: brown;
+}
