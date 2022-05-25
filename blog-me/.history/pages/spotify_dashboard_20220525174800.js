@@ -17,7 +17,7 @@ export default function Home({spotify_artsits, spotify_tracks}) {
             {spotify_artsits.items 
               && spotify_artsits.items.map((artist, index) => (
                 <div  key={artist.id}>
-                        <p className={styles.myPostDesc}> {index+1}. {artist.name} </p>
+                        <p className={styles.spotifyartist}> {index+1}. {artist.name} </p>
                   </div>
               ))}
           </div>
@@ -26,8 +26,8 @@ export default function Home({spotify_artsits, spotify_tracks}) {
           {spotify_tracks.items 
              && spotify_tracks.items.map((track, index) => (
                <div  key={track.id}>
-                      <p className={styles.spotifytrack}> {index+1}. {track.name} </p>
-                      <p className={styles.spotifyartist}>{track.artists[0].name}</p>
+                      <p className={styles.myPostDesc}> {index+1}. {track.name} </p>
+                      <p className={styles.myPostDesc}>{track.artists[0].name}</p>
                 </div>
             ))}
           </div>

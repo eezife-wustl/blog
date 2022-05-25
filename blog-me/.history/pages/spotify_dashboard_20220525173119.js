@@ -24,10 +24,9 @@ export default function Home({spotify_artsits, spotify_tracks}) {
           <div style={{ alginSelf: "flex-end", marginLeft: "5rem"}}>
           <h2> Top Tracks this Month </h2>
           {spotify_tracks.items 
-             && spotify_tracks.items.map((track, index) => (
+             && spotify_tracks.map((track, index) => (
                <div  key={track.id}>
-                      <p className={styles.spotifytrack}> {index+1}. {track.name} </p>
-                      <p className={styles.spotifyartist}>{track.artists[0].name}</p>
+                      <p className={styles.myPostDesc}> {index+1}. {track.name} {track.type} </p>
                 </div>
             ))}
           </div>

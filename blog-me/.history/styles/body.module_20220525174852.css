@@ -24,16 +24,16 @@
 }
 
 .spotifyartist {
-    font-family: Jost-500-Medium;
-    font-size: 1.2rem;
+    font-family: Jost-400-Book;
+    font-size: 1rem;
     margin: 0;
     padding: 0;
 }
 
-.spotifytrack {
+.spotifyartist {
     font-family: Jost-400-Book;
-    font-size: 1.5rem;
-    margin: 0.4rem;
+    font-size: 1rem;
+    margin: 0;
     padding: 0;
 }
 
