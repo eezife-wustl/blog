@@ -11,9 +11,9 @@ export default function blogPost({post}) {
     return (
     <div className={styles.wrapper}>
         <div className={styles.myPostTitle}>{post.data[0].attributes.Title}</div>
-        <div className={styles.myPostDesc}>By: {post.data[0].attributes.Author}</div>
+        <div className={styles.myPostContent}>By: {post.data[0].attributes.Author}</div>
         {/* <ReactMarkdown># Hello, *world*!</ReactMarkdown> */}
-        <ReactMarkdown className={styles.myPostDesc} components={{ img: imageRenderer }}>{post.data[0].attributes.Content}</ReactMarkdown>
+        <ReactMarkdown className={styles.myPostContent} components={{ img: imageRenderer }}>{post.data[0].attributes.Content}</ReactMarkdown>
         {/* <ReactMarkdown source={post.data[0].attributes.Content} className={styles.myPostDesc} renderers={{ image: imageRenderer }}/> */}
         {/* <Image width={600} height={350} className="h-48 w-full object-cover" src={urlBuilder(post.image[0].url)} alt={post.title} /> */}
         {/* <MDXRemote {...post.data[0].attributes.Content} components={components} /> */}

@@ -34,7 +34,7 @@ export async function getStaticProps() {
         const response = await fetch("https://fast-shore-63405.herokuapp.com/api/posts");
         const posts = await response.json();
         console.log(posts);
-        posts.data.reverse();
+        //posts.data.reverse();
         return {
             props: {posts},
         };
