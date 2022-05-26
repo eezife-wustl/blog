@@ -19,9 +19,10 @@ export default function Home({posts}) {
              && posts.data.map((post) => (
                <div  key={post.id}>
                   <Link href={`/${post.attributes.Slug}`}>
-                      <a> <h1  className={styles.myPosts}> {post.attributes.Title} </h1> </a>
+                      <a> <h1  className={styles.myPosts} style={{ margin: "0"}}> {post.attributes.Title} </h1> </a>
                   </Link>
-                  <h1 style={{ fontFamily: "Jost-400-Book"}}> {post.attributes.Date} </h1>
+                  <h1 style={{ fontFamily: "Jost-400-Book", margin: "0"}}> {post.attributes.Author} </h1>
+                  <h2 style={{ fontFamily: "Jost-400-Book", margin: "0"}}> {post.attributes.Date} </h2>
                   <hr style={{height:'2px', backgroundColor:'gray', borderWidth:'0'}} />
                 </div>
             ))}

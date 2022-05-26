@@ -11,6 +11,7 @@ export default function blogPost({post}) {
     return (
     <div className={styles.wrapper}>
         <div className={styles.myPostTitle}>{post.data[0].attributes.Title}</div>
+        <div className={styles.myPostDesc}>By: {post.data[0].attributes.Author}</div>
         {/* <ReactMarkdown># Hello, *world*!</ReactMarkdown> */}
         <ReactMarkdown className={styles.myPostDesc} components={{ img: imageRenderer }}>{post.data[0].attributes.Content}</ReactMarkdown>
         {/* <ReactMarkdown source={post.data[0].attributes.Content} className={styles.myPostDesc} renderers={{ image: imageRenderer }}/> */}

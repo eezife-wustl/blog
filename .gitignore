@@ -5,6 +5,7 @@ blog-strapi2/.git
 /node_modules
 blog-strapi
 blog-strapi2
+.history
 
 # testing
 /coverage
