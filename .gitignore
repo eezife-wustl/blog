@@ -6,6 +6,7 @@ blog-strapi2/.git
 blog-strapi
 blog-strapi2
 .history
+.history/blog-me
 
 # testing
 /coverage
