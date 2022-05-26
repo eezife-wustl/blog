@@ -1,4 +1,4 @@
-import {subscribe} from '../pages/api/subscribe'
+import {subscribe} from '../pages/api/form'
 import styles from '../styles/about.module.css'
 
 export default function About() {

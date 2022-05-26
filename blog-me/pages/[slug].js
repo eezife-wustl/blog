@@ -45,6 +45,7 @@ export async function getStaticProps({params}) {
     console.log('https://fast-shore-63405.herokuapp.com/api/posts?filters[Slug][$eq]='+{slug}.slug);
     // ?filters[username][$eq]=John
     // const res = await fetch('http://localhost:1337/api/posts?Slug=${slug}');
+    //https://fast-shore-63405.herokuapp.com
     const res = await fetch('https://fast-shore-63405.herokuapp.com/api/posts?filters[Slug][$eq]='+{slug}.slug);
     // console.log("deliminaeter" + res);
     const data = await res.json();

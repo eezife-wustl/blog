@@ -49,7 +49,7 @@ try {
       })
   }
 } catch (e) {
-    console.log(e)
+    //console.log(e)
     return res.status(500).json({ e: e.message })
 }
   // Found the name.

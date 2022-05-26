@@ -1,6 +1,6 @@
 import Sidebar from '../components/sidebar'
 import About from './AboutBox'
-import PageWithJSbasedForm from '../pages/js-form'
+import PageWithJSbasedForm from '../pages/js-form-copy'
 import { Flex, Spacer } from '@chakra-ui/react'
 import { Box } from '@chakra-ui/react'
 
