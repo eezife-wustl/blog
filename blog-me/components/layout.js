@@ -12,7 +12,6 @@ export default function Layout({ children }) {
         <Box>
         <Sidebar />
           <main>{children}</main>
-          <About />
           <PageWithJSbasedForm />
         </Box>
         <Spacer />

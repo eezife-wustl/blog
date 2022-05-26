@@ -30,6 +30,44 @@
     margin-left: 15rem;
 }
 
+@media screen and (max-width: 820px) {
+    .myPostContent {
+        font-family: Jost-400-Book;
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        margin-top:0;
+        margin-bottom:0;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .myPostContent {
+        font-family: Jost-400-Book;
+        font-size: 1.2rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        margin-top:0;
+        margin-bottom:0;
+        flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .myPostContent {
+        font-family: Jost-400-Book;
+        font-size: 1rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        margin-top:0;
+        margin-bottom:0;
+        flex-wrap: wrap;
+    }
+  }
+
+
 .spotifyartist {
     font-family: Jost-500-Medium;
     font-size: 1.2rem;

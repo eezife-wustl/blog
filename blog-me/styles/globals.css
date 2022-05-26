@@ -10,6 +10,22 @@ body {
   width: 100vw;
   background-attachment: fixed;
   overflow-x: hidden; 
+  /* -webkit-overflow-scrolling: touch; */
+}
+
+@media screen and (max-width: 821px) {
+  html {
+    /* overflow: hidden; */
+    position: fixed;
+    /* padding-bottom:10rem; */
+  }
+  html {
+    overflow: hidden;
+  }
+  body {
+    padding-bottom:20rem;
+  }
+  /* -webkit-overflow-scrolling: touch; */
 }
 
 a {

@@ -17,8 +17,9 @@
     top: 0; 
     left: 0;
     display: flex;
-    z-index: 10000;
+    z-index: 10;
     justify-content: space-between;
+    overflow: hidden;
     /* position: fixed;
     z-index: 1;
     top: 0;  */
@@ -31,6 +32,12 @@
     color: b0a4ff
     */
 }
+
+@media screen and (max-width: 600px) {
+    .myNavbar {
+        position: absolute;
+    }
+  }
 
 /* .Wrapper {
     display: flex;

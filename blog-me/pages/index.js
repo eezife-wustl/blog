@@ -17,7 +17,7 @@ export default function Home({posts}) {
     <div style={{ marginTop: "4rem"}}>
             {posts.data
              && posts.data.map((post) => (
-               <div  key={post.id}>
+               <div key={post.id} style={{ margin: "0", overflowY: "hidden" }}>
                   <Link href={`/${post.attributes.Slug}`}>
                       <a> <h1  className={styles.myPosts} style={{ margin: "0"}}> {post.attributes.Title} </h1> </a>
                   </Link>

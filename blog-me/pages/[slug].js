@@ -9,7 +9,7 @@ import Image from 'next/image'
 
 export default function blogPost({post}) {
     return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} style={{ flexWrap: "wrap" }}>
         <div className={styles.myPostTitle}>{post.data[0].attributes.Title}</div>
         <div className={styles.myPostContent}>By: {post.data[0].attributes.Author}</div>
         {/* <ReactMarkdown># Hello, *world*!</ReactMarkdown> */}
