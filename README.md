@@ -1,6 +1,6 @@
 # blog
  
-A blog for me! Designed and deployed with Next.js, Heroku, and Strapi.
+A blog for me! Designed and deployed with Next.js, Heroku, and Strapi. \n
 Currently offline, revival coming soon....
 To do:
 Redeploy
